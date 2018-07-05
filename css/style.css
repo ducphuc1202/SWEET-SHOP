@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-moz-selection {
+    background-color: #f39ebc;
+    color:#ffffff;
+}
+::selection {
+    background-color: #f39ebc;
+    color:#ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1366px;
+    height: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+.banner {
+    background-image: url("../image/screen-3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.menu {
+    padding: 20px;
+    width: 100%;
+}
+.menu::after, .menu::before, .back-next::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.menuicon {
+    float: left;
+    width: 50%;
+    text-align: right;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.menuicon:hover {
+    color: #f39ebc;
+}
+.main-banner {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.use {
+    background-image: url("../image/screen-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+}
+.title {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.line {
+    width: 140px;
+    background-color: #f39ebc;
+    line-height: 0.3;
+    margin: 0 auto;
+    border-radius: 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.text {
+    width: 60%;
+    font-size: 18px;
+    margin: 0 auto;
+    color: #959694;
+    margin-bottom: 20px;
+}
+.use-content-card {
+    margin-bottom: 20px;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.customer {
+    background-image: url("../image/screen-3.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+}
+.back-next {
+    margin: 0 auto;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.next {
+    color: #f39ebc;
+    border: 1px solid #f39ebc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.next:hover {
+    color: #ffffff;
+    background-color: #f39ebc;
+    cursor: pointer;
+}
+.follow-us {
+    background-image: url("../image/screen-4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+}
+#mail {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #f39ebc;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+#sub {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    background-color: #f39ebc;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#sub:hover {
+    background-color: black;
+}
+.follow-btn a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    border: solid 2px #f39ebc;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f39ebc;
+}
+.follow-btn a:hover {
+    color: #ffffff;
+    background-color: #f39ebc;
+}
+.pink-text {
+    color: #f39ebc;
+}
+.orange-text {
+    color: #CC6600;
+}
+@media screen and (min-width: 1000px) {
+    .cl-1-16 {
+        width: 6.25%;
+    }
+    .cl-2-16 {
+        width: 12.5%;
+    }
+     .cl-3-16 {
+        width: 18.75%;
+    }
+     .cl-4-16 {
+        width: 25%;
+    }
+     .cl-5-16 {
+        width: 31.25%;
+    }
+     .cl-6-16 {
+        width: 37.5%;
+    }
+     .cl-7-16 {
+        width: 43.75%;
+    }
+     .cl-8-16 {
+        width: 50%;
+    }
+     .cl-9-16 {
+        width: 56.25%;
+    }
+     .cl-10-16 {
+        width: 62.5%;
+    }
+     .cl-11-16 {
+        width: 68.75%;
+    }
+     .cl-12-16 {
+        width: 75%;
+    }
+     .cl-13-16 {
+        width: 81.25%;
+    }
+     .cl-14-16 {
+        width: 87.5%;
+    }
+     .cl-15-16 {
+        width: 93.75%;
+    }
+     .cl-16-16 {
+        width: 100%;
+    }
+    .menu {
+        position: fixed;
+    }
+    .use-content {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 10%;
+        padding-top: 60px;
+        padding-bottom: 150px; 
+    }
+    .use-content-card {
+        float: left;
+        padding: 5px;
+    }
+    .use-content::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .customer {
+        padding-bottom: 250px;
+        padding-top: 150px;
+    }
+    .customer > .text {
+        width: 40%;
+        font-size: 20px;
+    }
+    .back-next {
+        margin-top: 80px;
+    }
+    .follow-us {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+    #mail {
+        display: inline-block;
+    }
+    .follow {
+        margin-top: 120px;
+    }
+    
+}
